@@ -1,0 +1,10 @@
+{
+ "replace": false,
+ "values": [
+  "klangwerk:turntable",
+  "klangwerk:gramophone",
+  "klangwerk:speaker_treble",
+  "klangwerk:speaker_mid",
+  "klangwerk:speaker_bass"
+ ]
+}

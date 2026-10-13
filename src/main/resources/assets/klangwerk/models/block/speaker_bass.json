@@ -1,0 +1,6 @@
+{
+ "parent": "klangwerk:block/speaker_base",
+ "textures": {
+  "front": "klangwerk:block/speaker_front_bass"
+ }
+}

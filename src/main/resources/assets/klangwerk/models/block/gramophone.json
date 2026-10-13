@@ -1,0 +1,205 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "particle": "klangwerk:block/gramophone_wood",
+  "wood": "klangwerk:block/gramophone_wood",
+  "top": "klangwerk:block/gramophone_top",
+  "brass": "klangwerk:block/brass",
+  "metal": "klangwerk:block/platter_metal",
+  "inner": "klangwerk:block/horn_inner"
+ },
+ "elements": [
+  {
+   "from": [
+    1,
+    0,
+    1
+   ],
+   "to": [
+    15,
+    7,
+    15
+   ],
+   "faces": {
+    "north": {
+     "texture": "#wood"
+    },
+    "south": {
+     "texture": "#wood"
+    },
+    "east": {
+     "texture": "#wood"
+    },
+    "west": {
+     "texture": "#wood"
+    },
+    "up": {
+     "texture": "#top"
+    },
+    "down": {
+     "texture": "#wood"
+    }
+   }
+  },
+  {
+   "from": [
+    1.5,
+    7,
+    3.5
+   ],
+   "to": [
+    10.5,
+    8,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#metal"
+    },
+    "south": {
+     "texture": "#metal"
+    },
+    "east": {
+     "texture": "#metal"
+    },
+    "west": {
+     "texture": "#metal"
+    },
+    "up": {
+     "texture": "#metal"
+    },
+    "down": {
+     "texture": "#metal"
+    }
+   }
+  },
+  {
+   "from": [
+    11,
+    7,
+    6.5
+   ],
+   "to": [
+    13,
+    10,
+    9.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#brass"
+    },
+    "south": {
+     "texture": "#brass"
+    },
+    "east": {
+     "texture": "#brass"
+    },
+    "west": {
+     "texture": "#brass"
+    },
+    "up": {
+     "texture": "#brass"
+    },
+    "down": {
+     "texture": "#brass"
+    }
+   }
+  },
+  {
+   "from": [
+    10,
+    10,
+    5.5
+   ],
+   "to": [
+    14,
+    12,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#brass"
+    },
+    "south": {
+     "texture": "#brass"
+    },
+    "east": {
+     "texture": "#brass"
+    },
+    "west": {
+     "texture": "#brass"
+    },
+    "up": {
+     "texture": "#brass"
+    },
+    "down": {
+     "texture": "#brass"
+    }
+   }
+  },
+  {
+   "from": [
+    9,
+    12,
+    4.5
+   ],
+   "to": [
+    15,
+    14,
+    11.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#brass"
+    },
+    "south": {
+     "texture": "#brass"
+    },
+    "east": {
+     "texture": "#brass"
+    },
+    "west": {
+     "texture": "#brass"
+    },
+    "up": {
+     "texture": "#brass"
+    },
+    "down": {
+     "texture": "#brass"
+    }
+   }
+  },
+  {
+   "from": [
+    8,
+    14,
+    3.5
+   ],
+   "to": [
+    16,
+    16,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#brass"
+    },
+    "south": {
+     "texture": "#brass"
+    },
+    "east": {
+     "texture": "#brass"
+    },
+    "west": {
+     "texture": "#brass"
+    },
+    "up": {
+     "texture": "#inner"
+    },
+    "down": {
+     "texture": "#brass"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=south": {
+   "model": "klangwerk:block/speaker_mid"
+  },
+  "facing=west": {
+   "model": "klangwerk:block/speaker_mid",
+   "y": 90
+  },
+  "facing=north": {
+   "model": "klangwerk:block/speaker_mid",
+   "y": 180
+  },
+  "facing=east": {
+   "model": "klangwerk:block/speaker_mid",
+   "y": 270
+  }
+ }
+}

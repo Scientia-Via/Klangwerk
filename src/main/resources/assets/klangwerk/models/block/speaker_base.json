@@ -1,0 +1,48 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "particle": "klangwerk:block/speaker_side",
+  "side": "klangwerk:block/speaker_side",
+  "top": "klangwerk:block/speaker_top"
+ },
+ "elements": [
+  {
+   "from": [
+    1,
+    0,
+    1
+   ],
+   "to": [
+    15,
+    15,
+    15
+   ],
+   "faces": {
+    "north": {
+     "texture": "#side"
+    },
+    "east": {
+     "texture": "#side"
+    },
+    "west": {
+     "texture": "#side"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#front"
+    },
+    "up": {
+     "texture": "#top"
+    },
+    "down": {
+     "texture": "#side"
+    }
+   }
+  }
+ ]
+}

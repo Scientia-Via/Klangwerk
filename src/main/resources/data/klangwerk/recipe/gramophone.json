@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "CCC",
+  "PJP",
+  "PPP"
+ ],
+ "key": {
+  "C": {
+   "item": "minecraft:copper_ingot"
+  },
+  "P": {
+   "tag": "minecraft:planks"
+  },
+  "J": {
+   "item": "minecraft:jukebox"
+  }
+ },
+ "result": {
+  "id": "klangwerk:gramophone",
+  "count": 1
+ }
+}

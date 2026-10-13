@@ -1,0 +1,27 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "redstone",
+ "pattern": [
+  "PPP",
+  "IXI",
+  "PRP"
+ ],
+ "key": {
+  "P": {
+   "tag": "minecraft:planks"
+  },
+  "I": {
+   "item": "minecraft:iron_ingot"
+  },
+  "X": {
+   "item": "minecraft:amethyst_shard"
+  },
+  "R": {
+   "item": "minecraft:redstone"
+  }
+ },
+ "result": {
+  "id": "klangwerk:speaker_treble",
+  "count": 1
+ }
+}

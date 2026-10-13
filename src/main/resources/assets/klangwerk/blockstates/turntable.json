@@ -1,0 +1,19 @@
+{
+ "variants": {
+  "facing=south": {
+   "model": "klangwerk:block/turntable"
+  },
+  "facing=west": {
+   "model": "klangwerk:block/turntable",
+   "y": 90
+  },
+  "facing=north": {
+   "model": "klangwerk:block/turntable",
+   "y": 180
+  },
+  "facing=east": {
+   "model": "klangwerk:block/turntable",
+   "y": 270
+  }
+ }
+}

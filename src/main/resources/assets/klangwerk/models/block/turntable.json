@@ -1,0 +1,241 @@
+{
+ "parent": "minecraft:block/block",
+ "textures": {
+  "particle": "klangwerk:block/turntable_side",
+  "top": "klangwerk:block/turntable_top",
+  "side": "klangwerk:block/turntable_side",
+  "front": "klangwerk:block/turntable_front",
+  "back": "klangwerk:block/turntable_back",
+  "platter": "klangwerk:block/platter_metal"
+ },
+ "elements": [
+  {
+   "from": [
+    0,
+    0,
+    0
+   ],
+   "to": [
+    16,
+    8,
+    16
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      8,
+      16,
+      16
+     ],
+     "texture": "#back"
+    },
+    "south": {
+     "uv": [
+      0,
+      8,
+      16,
+      16
+     ],
+     "texture": "#front"
+    },
+    "east": {
+     "uv": [
+      0,
+      8,
+      16,
+      16
+     ],
+     "texture": "#side"
+    },
+    "west": {
+     "uv": [
+      0,
+      8,
+      16,
+      16
+     ],
+     "texture": "#side"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#top"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#side"
+    }
+   }
+  },
+  {
+   "from": [
+    1,
+    8,
+    2
+   ],
+   "to": [
+    13,
+    9,
+    14
+   ],
+   "faces": {
+    "north": {
+     "texture": "#platter"
+    },
+    "south": {
+     "texture": "#platter"
+    },
+    "east": {
+     "texture": "#platter"
+    },
+    "west": {
+     "texture": "#platter"
+    },
+    "up": {
+     "texture": "#platter"
+    },
+    "down": {
+     "texture": "#platter"
+    }
+   }
+  },
+  {
+   "from": [
+    6.5,
+    9,
+    7.5
+   ],
+   "to": [
+    7.5,
+    10,
+    8.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#platter"
+    },
+    "south": {
+     "texture": "#platter"
+    },
+    "east": {
+     "texture": "#platter"
+    },
+    "west": {
+     "texture": "#platter"
+    },
+    "up": {
+     "texture": "#platter"
+    },
+    "down": {
+     "texture": "#platter"
+    }
+   }
+  },
+  {
+   "from": [
+    13.5,
+    8,
+    11
+   ],
+   "to": [
+    15.5,
+    10,
+    13
+   ],
+   "faces": {
+    "north": {
+     "texture": "#platter"
+    },
+    "south": {
+     "texture": "#platter"
+    },
+    "east": {
+     "texture": "#platter"
+    },
+    "west": {
+     "texture": "#platter"
+    },
+    "up": {
+     "texture": "#platter"
+    },
+    "down": {
+     "texture": "#platter"
+    }
+   }
+  },
+  {
+   "from": [
+    8,
+    9.5,
+    11.5
+   ],
+   "to": [
+    15,
+    10.5,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#platter"
+    },
+    "south": {
+     "texture": "#platter"
+    },
+    "east": {
+     "texture": "#platter"
+    },
+    "west": {
+     "texture": "#platter"
+    },
+    "up": {
+     "texture": "#platter"
+    },
+    "down": {
+     "texture": "#platter"
+    }
+   }
+  },
+  {
+   "from": [
+    7.5,
+    9,
+    9.5
+   ],
+   "to": [
+    8.5,
+    10,
+    12.5
+   ],
+   "faces": {
+    "north": {
+     "texture": "#platter"
+    },
+    "south": {
+     "texture": "#platter"
+    },
+    "east": {
+     "texture": "#platter"
+    },
+    "west": {
+     "texture": "#platter"
+    },
+    "up": {
+     "texture": "#platter"
+    },
+    "down": {
+     "texture": "#platter"
+    }
+   }
+  }
+ ]
+}
