@@ -1,0 +1,31 @@
+name: Mod bauen
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Java 21 einrichten
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Gradle einrichten
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.10.2'
+
+      - name: Mod bauen
+        run: gradle build --no-daemon
+
+      - name: Fertige .jar hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: klangwerk-jar
+          path: build/libs/*.jar
